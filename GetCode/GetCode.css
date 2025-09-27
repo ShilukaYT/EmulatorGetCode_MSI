@@ -1,0 +1,103 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+  font-size: large;
+}
+header {
+  background: #ff6900;
+  color: white;
+  padding: 1rem 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+nav a {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover{
+  color: papayawhip;
+}
+
+nav{
+  
+  padding: 10px 10px;
+  position: relative;
+  
+}
+div img
+{
+  width: 5%;
+  height: auto;
+}
+li{
+  
+  margin: 0 10px;
+  display: inline; /* chỉnh các mục danh sách nằm ngang */
+  text-align: right;
+  
+
+}
+ul.navbar-menu{
+  margin-bottom: 0;
+}
+
+div .banner{
+  width: 100%;
+  height: auto;
+}
+.banner img{
+  width: 100%;
+  height: auto;
+  background-size: cover;
+
+ 
+}
+.product{
+  width: 250px;
+  height: auto;
+}
+
+.h2-1{
+  font-size: 25px;
+}
+
+footer{
+  background: #ff6900;
+  padding: 30px;
+}
+footer i{
+  padding: 5px;
+  margin-top: 20px;
+}
+
+footer h3{
+  color: #fff;
+}
+footer h4{
+  color: white;
+}
+.material-symbols-outlined {
+  color: white;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 26
+  ;
+
+}
+
+button{
+  width: 200px;
+  height: 50px;
+}
+
